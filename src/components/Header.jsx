@@ -27,9 +27,15 @@ const Header = ({ fromRegisterPage }) => {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
-              <Nav.Link className="mx-3 text-white">Home</Nav.Link>
-
-              <Nav.Link className="mx-3 text-white">About</Nav.Link>
+            <Link to={"/"} style={{textDecoration:"none",marginTop:"8px"}}>
+                <p className="mx-3 text-white">Home</p>
+              </Link>
+              <Link to={"/about"} style={{textDecoration:"none",marginTop:"8px"}}>
+                <p className="mx-3 text-white">About</p>
+              </Link>
+              <Link to={"/contact"} style={{textDecoration:"none",marginTop:"8px",marginRight:"20px"}}>
+                <p className="mx-3 text-white">Contact</p>
+              </Link>
 
               {fromRegisterPage ? (
                 <>
@@ -40,7 +46,7 @@ const Header = ({ fromRegisterPage }) => {
                   </Link>
                 </>
               ) : (
-                <button className="neon-button">Logout</button>
+                <button className="neon-button mb-3">Logout</button>
               )}
             </Nav>
           </Navbar.Collapse>

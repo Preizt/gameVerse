@@ -17,7 +17,7 @@ const AdminDashBoard = () => {
         <div className="">
             <AdminSidePanel setCategory={setCategory} />
         </div>
-        <div className="">
+        <div className="w-100">
              <AdminMainPanel category = {category} />
         </div>
     </div>

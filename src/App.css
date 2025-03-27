@@ -109,3 +109,546 @@ Hover Effect: #FF1744 (Bright Red)
 .adminside {
   background-color: #ebe8db;
 }
+
+/* General Styles */
+.about-container {
+  background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+  color: #fff;
+  min-height: 100vh;
+  padding: 60px 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.content-wrapper {
+  width: 85%;
+  margin: 0 auto;
+}
+
+/* Header Section */
+.section-header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.section-header h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.section-header h1 span {
+  color: #5e60ce;  /* Neon accent color */
+}
+
+.section-header p {
+  font-size: 1.2rem;
+  color: #ccc;
+}
+
+/* Mission Section */
+.section-mission {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.section-mission h2 {
+  font-size: 2.5rem;
+  color: #64dfdf;
+}
+
+.section-mission p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #ccc;
+}
+
+/* Team Section */
+.section-team {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.section-team h2 {
+  font-size: 2.5rem;
+  color: #ff4d6d;
+  margin-bottom: 40px;
+}
+
+.team-grid {
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+}
+
+.team-card {
+  background: #1e1e2f;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.8);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.team-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 25px #64dfdf;
+}
+
+.team-card img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+}
+
+.card-info {
+  padding: 20px;
+  text-align: center;
+}
+
+.card-info h3 {
+  font-size: 1.8rem;
+  color: #5e60ce;
+}
+
+.card-info p {
+  font-size: 1.1rem;
+  color: #ccc;
+}
+
+/* Why Choose Us Section */
+.section-why {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.section-why h2 {
+  font-size: 2.5rem;
+  color: #64dfdf;
+  margin-bottom: 40px;
+}
+
+.why-cards {
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+}
+
+.why-card {
+  background: #1e1e2f;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.8);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.why-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 30px #ff4d6d;
+}
+
+.why-card h3 {
+  color: #ff4d6d;
+  font-size: 1.8rem;
+}
+
+.why-card p {
+  font-size: 1.1rem;
+  color: #ccc;
+}
+
+/* CTA Section */
+.cta-section {
+  text-align: center;
+  margin: 100px 0;
+}
+
+.cta-section h2 {
+  font-size: 3rem;
+  color: #64dfdf;
+  margin-bottom: 20px;
+}
+
+.cta-section p {
+  font-size: 1.2rem;
+  color: #ccc;
+  margin-bottom: 30px;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 15px 40px;
+  background: #5e60ce;
+  color: #fff;
+  font-size: 1.3rem;
+  text-decoration: none;
+  border-radius: 30px;
+  transition: background 0.3s, transform 0.3s;
+}
+
+.cta-button:hover {
+  background: #ff4d6d;
+  transform: translateY(-5px);
+}
+
+
+/* Footer Container */
+.footer {
+  background: #0d0d0d;  /* Dark background */
+  color: #fff;
+  padding: 70px 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 30px;
+}
+
+/* Logo Section */
+.footer-logo {
+  flex: 1;
+  min-width: 250px;
+  text-align: center;
+}
+
+.footer-logo .logo {
+  width: 200px;
+  height: auto;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.footer-logo .logo:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 20px #ff4d6d;
+}
+
+.footer-logo p {
+  font-size: 1.2rem;
+  color: #ccc;
+  margin-top: 15px;
+}
+
+/* Links Section */
+.footer-links {
+  flex: 1;
+  min-width: 200px;
+  text-align: center;
+}
+
+.footer-links h5 {
+  font-size: 1.6rem;
+  color: #ff4d6d;  /* Red accent */
+  margin-bottom: 20px;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 12px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.2rem;
+  transition: color 0.3s, border-bottom 0.3s;
+}
+
+.footer-links a:hover {
+  color: #ff4d6d;
+  border-bottom: 2px solid #ff4d6d;
+}
+
+/* Contact Section */
+.footer-contact {
+  flex: 1;
+  min-width: 250px;
+  text-align: center;
+}
+
+.footer-contact h5 {
+  font-size: 1.6rem;
+  color: #ff4d6d;  /* Red accent */
+  margin-bottom: 20px;
+}
+
+.footer-contact ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-contact li {
+  font-size: 1.1rem;
+  color: #ccc;
+  margin-bottom: 10px;
+}
+
+/* Add icons in contact */
+.footer-contact i {
+  color: #ff4d6d;
+  margin-right: 10px;
+}
+
+/* Social Media Icons */
+.footer-social {
+  flex: 1;
+  min-width: 200px;
+  text-align: center;
+}
+
+.footer-social h5 {
+  font-size: 1.6rem;
+  color: #ff4d6d;  /* Red accent */
+  margin-bottom: 20px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.social-icons a {
+  color: #fff;
+  font-size: 2rem;
+  transition: color 0.3s, transform 0.3s;
+}
+
+.social-icons a:hover {
+  color: #ff4d6d;
+  transform: scale(1.2);
+}
+
+/* Footer Bottom */
+.footer-bottom {
+  text-align: center;
+  background: #1a1a1a;
+  padding: 15px 0;
+  color: #ccc;
+  font-size: 1rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-logo, 
+  .footer-links, 
+  .footer-contact, 
+  .footer-social {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+}
+
+/* Contact Component Styling */
+.contact-container {
+  background: #0d0d0d;  /* Dark background */
+  color: #fff;
+  padding: 100px 0;
+  text-align: center;
+}
+
+/* Content Section */
+.contact-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Title and Description */
+.contact-title {
+  font-size: 3rem;
+  color: #fff;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.contact-title span {
+  color: #ff0000;  /* Red span */
+}
+
+.contact-description {
+  font-size: 1.3rem;
+  color: #ccc;
+  margin-bottom: 50px;
+}
+
+/* Contact Info Section */
+.contact-info {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+/* Individual Contact Card */
+.contact-card {
+  background: #1a1a1a;  /* Dark gray card */
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(255, 0, 0, 0.3);  /* Red glow */
+  transition: transform 0.3s, box-shadow 0.3s;
+  text-align: center;
+  flex: 1;
+  min-width: 300px;
+}
+
+/* Icon Styling */
+.contact-card i {
+  font-size: 3rem;
+  color: #ff0000;   /* Red icons */
+  margin-bottom: 20px;
+}
+
+/* Text Styling */
+.contact-card h3 {
+  font-size: 1.8rem;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.contact-card p {
+  font-size: 1.2rem;
+  color: #ccc;
+}
+
+/* Hover Effects */
+.contact-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 25px rgba(255, 0, 0, 0.8);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .contact-info {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-card {
+    width: 90%;
+  }
+}
+
+
+/* Admin Dashboard Styling */
+.admin-dashboard {
+  background: #000;  /* Black background */
+  color: #fff;
+  min-height: 100vh;
+  padding: 50px 0;
+}
+
+/* Chart Container */
+.chart-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 30px;
+  padding: 50px;
+}
+
+/* Custom Card Styling */
+.custom-card {
+  background: #1a1a1a;    /* Dark gray card */
+  color: #fff;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+  width: 30%;
+  min-width: 350px;
+  text-align: center;
+}
+
+/* Card Hover Effects */
+.custom-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 0 25px rgba(255, 255, 255, 0.3);
+}
+
+/* Card Titles */
+.custom-card h3 {
+  font-size: 1.5rem;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+/* Chart Canvas */
+.custom-card canvas {
+  max-height: 400px;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .chart-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .custom-card {
+    width: 90%;
+  }
+}
+
+
+/* Admin Side Panel Styling */
+.admin-side-panel {
+  height: 100vh;
+  width: 100%;
+  background: #000;    /* Black background */
+  color: #fff;         /* White text */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 2px solid #fff;  /* White border */
+}
+
+/* Menu Container */
+.menu-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+}
+
+/* Menu Items */
+.menu-item {
+  font-size: 1.8rem;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 15px 30px;
+  transition: all 0.3s ease-in-out;
+  border-radius: 8px;
+}
+
+/* Hover Effect */
+.menu-item:hover {
+  background: #fff;    /* White background on hover */
+  color: #000;         /* Black text on hover */
+  transform: scale(1.1);
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+}
+
+/* Active Effect */
+.menu-item:active {
+  transform: scale(0.95);
+  background: #666;
+  color: #fff;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .menu-item {
+    font-size: 1.4rem;
+    padding: 10px 20px;
+  }
+}

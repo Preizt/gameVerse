@@ -1,12 +1,10 @@
 import React from 'react'
+import ProductAdd from '../../components/ProductAdd'
 
 const AdminAddProducts = () => {
   return (
     <>
-    <h1 className=' ms-5 mt-3'>Add and View Games</h1>
-    <div>
-      
-    </div>
+  <ProductAdd/>
     </>
   )
 }
